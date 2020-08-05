@@ -1,0 +1,19 @@
+{
+    "name": "italomoralesf/composer",
+    "description": "Proyecto para entender a Composer",
+    "authors": [
+        {
+            "name": "Italo Morales F.",
+            "email": "i@rimorsoft.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Text\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
